@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html> 
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel ="stylesheet" href = "style.css">    
+
+    <header id="header">
+
+        <!-- CREATING A NAVBAR w/BOOTSTRAP -->
+        <div id="nav-box">
+            <nav id="nav-bar" class="navbar navbar-expand-lg navbar-light fixed-top"> 
+
+                <a class="navbar-brand"><img id="header-img" src ="https://i.ebayimg.com/images/g/GC4AAOxyYANTYlWx/s-l300.jpg" width="60" height="60"></a>
+                <span class="navbar-text">SABERS</span>
+                
+                <!-- class attribute mr-auto ml-auto aligns items right or left-->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a id="nav-link" class="nav-link" href="#specifications">Specifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="nav-link" class="nav-link" href="#instructions">How to Use</a>
+                    </li>
+                    <li class="nav-item">
+                         <a id="nav-link" class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            
+        </div> 
+    </header>
+    
+    <head>
+        <title>Landing Page</title>
+
+        
+    </head>
+    
+    <body>
+        <section id="enroll">
+            <h2 class="section-title"><strong>INTERGALACTIC SPACE SWORDS</strong></h2>
+            <form id="form"  action="https://www.freecodecamp.com/email-submit">
+                <div id="email-box">
+                    <input type ="email" name="email" id="email" placeholder="Enter your email" required>
+                    <input type="submit" value="Submit" id="submit" class="btn">
+                </div>
+            </form>
+        </section>
+
+        <section id="specifications">
+            <h1 class="section-title">SPECS</h1><br>
+            
+            <!-- CSS Grid Layout-->
+            <div class="spec-grid">
+                <div>
+                    <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/76217-200.png"  width="100px" height="100px">
+                </div>
+                <div>
+                    <h4><strong>Easy to Use</strong></h4>
+                    <p>turn it on with a click of a button!</p>
+                </div>
+                <div>
+                        <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/76217-200.png"  width="100px" height="100px">
+                    </div>
+                <div>
+                    <h4><strong>High Power</strong></h4>
+                    <p>turn it on with a click of a button!</p>
+                </div>
+                <div>
+                        <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/76217-200.png"  width="100px" height="100px">
+                </div>
+                <div>
+                    <h4><strong>Mutliple Functionalities</strong></h4>
+                    <p>turn it on with a click of a button!</p>
+                </div>
+            </div>
+            
+            <div id="spec-box" class="container">
+                <!-- img-responsive makes img scale nicely to parent -->
+                <img id="spec-img" src="https://vignette.wikia.nocookie.net/nations/images/9/9a/Lightsaber-cutaway.jpg/revision/latest?cb=20090615230329" class="img-responsive"> 
+            </div>
+        </section>
+
+        <section id="instructions">
+            <h1 class="section-title">HOW TO USE</h1><br>
+
+            <div id="video-box" class="container">
+                <iframe id="video" width="600" height="300" src="https://www.youtube.com/embed/h19yG1DXI2o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </section>>
+
+        <section id="pricing">
+            <h1 class="section-title">PRICING</h1><br>
+
+            <div class="pricing-grid">
+                <div class="saber-box">
+                    <h4>Short Saber</h4>
+                </div>
+                <div class="saber-box">
+                    <h4>Single Blade Saber</h4>
+                </div>
+                <div class="saber-box">
+                    <h4>Double Blade Saber</h4>
+                </div>
+                <div>
+                    <ul>
+                        <li><p>exteremely fast</p></li>
+                        <li><p>lighter weight</p></li>
+                        <li><p>shorter range</p></li>
+                    </ul>
+                    <div class="select-box">
+                        <button class="btn">Select</button>
+                    </div>
+                </div>
+                <div>
+                    <ul>
+                        <li><p>standard issue</p></li>
+                        <li><p>weighty feel</p></li>
+                        <li><p>balanced use</p></li>
+                    </ul>
+                    <div class="select-box">
+                        <button class="btn">Select</button>
+                    </div>
+                </div>
+                <div>
+                    <ul>
+                        <li><p>double edged</p></li>
+                        <li><p>extended range of motion</p></li>
+                        <li><p>advanced techniques</p></li>
+                    </ul>
+                    <div class="select-box">
+                        <button class="btn">Select</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+        <!--FCC testing -->
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
+
+    <footer>
+
+    </footer>
+</html>
